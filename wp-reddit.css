@@ -1,0 +1,33 @@
+/* 
+    Document   : wp-reddit
+    Author     : avinasharora
+    Description: stylesheet for page
+*/
+
+#wp_reddit_wrapper {
+    width:32px;
+    height:32px;
+    background-image:url('wp-reddit.png');
+    background-repeat:no-repeat;
+    background-position:top left;
+}
+a.wp_reddit_button {
+    width: 32px;
+    height: 32px;
+    background-image:url('reddit.png');
+    background-repeat:no-repeat;
+    background-position:top left;
+}
+
+/* this CSS hover offset is here to reserve 
+the spot for putting a hover over change 
+for the actual icon. I have not actually 
+implemented one yet but it will happen soon enough */
+
+a:hover.wp_reddit_button {
+    width: 32px;
+    height: 32px;
+    background-image:url('reddit.png');
+    background-repeat:no-repeat;
+    background-position:top left; left: 32px;
+}
